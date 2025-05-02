@@ -1,16 +1,21 @@
-# HumanChain-AI-Safety-Incident-Log-API
+# AI Safety Incident Log API
 
-● Task: Create a simple RESTful API service to log and manage hypothetical AI
-safety incidents stored in a database.
+A simple RESTful API service built with Flask to log and manage hypothetical AI safety incidents.
 
-● Data Structure: Each incident should have at least the following fields stored in the database:
+## Language/Framework Choice
 
-  ○ id: A unique identifier (database-generated primary key is recommended).
+- **Language**: Python
+- **Framework**: Flask
+- **Database**: SQLite
+- **ORM**: SQLAlchemy
 
-  ○ title: A short summary of the incident (string).
+## Setup Instructions
 
-  ○ description: A more detailed description of the incident (string/text).
+### Prerequisites
 
-  ○ severity: The assessed severity level (e.g., "Low", "Medium", "High") (string).
+- Python 3.8 or higher
+- pip (Python package manager)
 
-  ○ reported_at: Timestamp when the incident was logged (datetime/timestamp).
+### Installation
+
+1. Clone this repository or unzip the provided file:
